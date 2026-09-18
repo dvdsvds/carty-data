@@ -25,7 +25,7 @@
       "name": "Nord",
       "description": "A cold, arctic-inspired zsh theme",
       "category_id": "shell",
-      "file_path": "themes/zsh",
+      "file_path": "themes/zsh/nord.zsh",
       "preview_colors": ["#2e3440", "#3b4252", "#88c0d0"],
       "provides": { "aliases": [], "functions": [] },
       "version": "1.0.0",
