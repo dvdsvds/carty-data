@@ -7,14 +7,16 @@
       "priority": 1,
       "apply_method": "marker_section",
       "target_file_env": "ZDOTDIR",
-      "target_file_default": "~/.zshrc"
+      "target_file": "~/.zshrc",
+      "comment_prefix": "#"
     }
   ],
   "items": [
     {
       "name": "Nord",
       "description": "A cold, arctic-inspired zsh theme",
-      "category": "themes/zsh",
+      "category_id": "shell",
+      "file_path": "themes/zsh",
       "preview_colors": ["#2e3440", "#3b4252", "#88c0d0"],
       "provides": { "aliases": [], "functions": [] },
       "version": "1.0.0",
