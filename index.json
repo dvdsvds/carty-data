@@ -9,6 +9,15 @@
       "target_file_env": "ZDOTDIR",
       "target_file": "~/.zshrc",
       "comment_prefix": "#"
+    },
+    {
+      "id": "nvim-colorscheme",
+      "label": "Neovim Colorscheme",
+      "required": false,
+      "priority": 2,
+      "apply_method": "marker_section",
+      "target_file": "~/.config/nvim/lua/plugins/carty-theme.lua",
+      "comment_prefix": "--"
     }
   ],
   "items": [
@@ -18,6 +27,17 @@
       "category_id": "shell",
       "file_path": "themes/zsh",
       "preview_colors": ["#2e3440", "#3b4252", "#88c0d0"],
+      "provides": { "aliases": [], "functions": [] },
+      "version": "1.0.0",
+      "hash": "",
+      "depends_on": []
+    },
+    {
+      "name": "Tokyo Night",
+      "description": "A clean, dark theme inspired by Tokyo at night",
+      "category_id": "nvim-colorscheme",
+      "file_path": "themes/nvim/tokyonight.lua",
+      "preview_colors": ["#1a1b26", "#7aa2f7", "##bb9af7"],
       "provides": { "aliases": [], "functions": [] },
       "version": "1.0.0",
       "hash": "",
