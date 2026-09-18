@@ -12,7 +12,7 @@ provides:
     lazy = false,
     priority = 1000,
     opts = {},
-    config = fuction()
+    config = function()
         vim.cmd.colorscheme("tokyonight")
     end,
 },
