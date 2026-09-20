@@ -8,6 +8,6 @@ provides:
     functions: []
 depends_on: []
 ---
-ZSH_THEME_GIT_PROMPT_PREFIX="%F{{{color}}}git:(%f"
-ZSH_THEME_GIT_PROMPT_SUFFIX="%F{{{color}}})%f "
+ZSH_THEME_GIT_PROMPT_PREFIX="%K{{{color}}}%F{0} git:("
+ZSH_THEME_GIT_PROMPT_SUFFIX=") %k%f "
 PROMPT+='$(git_prompt_info)'

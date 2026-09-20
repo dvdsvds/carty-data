@@ -8,4 +8,4 @@ provides:
     functions: []
 depends_on: []
 ---
-PROMPT+="%F{{{color}}}%~%f "
+PROMPT+="%K{{{color}}}%F{0} %~ %k%f "
