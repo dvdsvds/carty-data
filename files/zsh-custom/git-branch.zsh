@@ -1,6 +1,6 @@
 ---
 name: git 브랜치
-description: "현재 git 브랜치 표시 (git 저장소 안에서만 보임) — 색은 담을 때 직접 고릅니다"
+description: "현재 git 브랜치 표시 (git 저장소 안에서만 보임)"
 category: zsh-custom
 preview_colors: []
 provides:
