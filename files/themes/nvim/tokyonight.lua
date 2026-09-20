@@ -1,7 +1,7 @@
 ---
 name: Tokyo Night
 description: A clean, dark theme inspired by Tokyo at night
-category: themes/nvim
+category: nvim-colorscheme
 preview_colors: ["#1a1b26", "#7aa2f7", "#bb9af7"]
 provides:
     aliases: []

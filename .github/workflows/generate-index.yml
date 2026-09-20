@@ -1,0 +1,52 @@
+name: generate-index
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - run: pip install pyyaml
+
+      - name: Generate index.json
+        run: python3 scripts/generate_index.py
+
+      # PRs never push back — just fail if index.json wasn't regenerated
+      # from what's actually in files/ and categories.json, so out-of-date
+      # or hand-edited index.json gets caught in review.
+      - name: Check index.json is up to date
+        if: github.event_name == 'pull_request'
+        run: |
+          if ! git diff --quiet -- index.json; then
+            echo "::error::index.json is out of date. Run 'python3 scripts/generate_index.py' and commit the result."
+            git diff -- index.json
+            exit 1
+          fi
+
+      # On main, commit the regenerated index.json if it changed (e.g. a
+      # maintainer merged a PR that only touched files/ without running
+      # the generator locally first).
+      - name: Commit regenerated index.json
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        run: |
+          if git diff --quiet -- index.json; then
+            echo "index.json already up to date."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add index.json
+          git commit -m "chore: regenerate index.json [skip ci]"
+          git push

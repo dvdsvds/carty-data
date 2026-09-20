@@ -1,0 +1,30 @@
+[
+  {
+    "id": "zsh-theme",
+    "label": "Zsh Theme",
+    "required": false,
+    "priority": 1,
+    "apply_method": "marker_section",
+    "target_file_env": "ZDOTDIR",
+    "target_file": "~/.zshrc",
+    "comment_prefix": "#"
+  },
+  {
+    "id": "fish-theme",
+    "label": "Fish Theme",
+    "required": false,
+    "priority": 2,
+    "apply_method": "marker_section",
+    "target_file": "~/.config/fish/config.fish",
+    "comment_prefix": "#"
+  },
+  {
+    "id": "nvim-colorscheme",
+    "label": "Neovim Colorscheme",
+    "required": false,
+    "priority": 3,
+    "apply_method": "marker_section",
+    "target_file": "~/.config/nvim/lua/plugins/carty-theme.lua",
+    "comment_prefix": "--"
+  }
+]
