@@ -362,6 +362,276 @@
       "depends_on": []
     },
     {
+      "name": "Dracula",
+      "description": "어두운 보라/분홍 톤의 널리 쓰이는 다크 테마",
+      "category_id": "zsh-theme",
+      "file_path": "zsh-theme/dracula.zsh",
+      "preview_colors": [
+        "#282a36",
+        "#bd93f9",
+        "#50fa7b"
+      ],
+      "provides": {
+        "aliases": [],
+        "functions": []
+      },
+      "version": "1.0.0",
+      "hash": "",
+      "depends_on": []
+    },
+    {
+      "name": "Gruvbox Dark",
+      "description": "따뜻한 레트로 톤의 베이지/올리브 색감 다크 테마",
+      "category_id": "zsh-theme",
+      "file_path": "zsh-theme/gruvbox-dark.zsh",
+      "preview_colors": [
+        "#282828",
+        "#d79921",
+        "#98971a"
+      ],
+      "provides": {
+        "aliases": [],
+        "functions": []
+      },
+      "version": "1.0.0",
+      "hash": "",
+      "depends_on": []
+    },
+    {
+      "name": "Catppuccin Mocha",
+      "description": "부드러운 파스텔 톤의 인기 다크 테마 (Mocha 플레이버)",
+      "category_id": "zsh-theme",
+      "file_path": "zsh-theme/catppuccin-mocha.zsh",
+      "preview_colors": [
+        "#1e1e2e",
+        "#cba6f7",
+        "#89b4fa"
+      ],
+      "provides": {
+        "aliases": [],
+        "functions": []
+      },
+      "version": "1.0.0",
+      "hash": "",
+      "depends_on": []
+    },
+    {
+      "name": "Tokyo Night",
+      "description": "도쿄의 밤을 모티브로 한 깔끔한 다크 블루 테마 (zsh 버전)",
+      "category_id": "zsh-theme",
+      "file_path": "zsh-theme/tokyonight.zsh",
+      "preview_colors": [
+        "#1a1b26",
+        "#7aa2f7",
+        "#bb9af7"
+      ],
+      "provides": {
+        "aliases": [],
+        "functions": []
+      },
+      "version": "1.0.0",
+      "hash": "",
+      "depends_on": []
+    },
+    {
+      "name": "Rose Pine",
+      "description": "은은한 로즈/파인 톤의 차분한 다크 테마",
+      "category_id": "zsh-theme",
+      "file_path": "zsh-theme/rose-pine.zsh",
+      "preview_colors": [
+        "#191724",
+        "#ebbcba",
+        "#c4a7e7"
+      ],
+      "provides": {
+        "aliases": [],
+        "functions": []
+      },
+      "version": "1.0.0",
+      "hash": "",
+      "depends_on": []
+    },
+    {
+      "name": "Everforest",
+      "description": "숲을 연상시키는 그린/베이지 톤의 눈에 편안한 테마",
+      "category_id": "zsh-theme",
+      "file_path": "zsh-theme/everforest.zsh",
+      "preview_colors": [
+        "#2d353b",
+        "#a7c080",
+        "#dbbc7f"
+      ],
+      "provides": {
+        "aliases": [],
+        "functions": []
+      },
+      "version": "1.0.0",
+      "hash": "",
+      "depends_on": []
+    },
+    {
+      "name": "Kanagawa",
+      "description": "일본 전통 채색을 모티브로 한 차분한 남색 계열 테마",
+      "category_id": "zsh-theme",
+      "file_path": "zsh-theme/kanagawa.zsh",
+      "preview_colors": [
+        "#1f1f28",
+        "#7fb4ca",
+        "#957fb8"
+      ],
+      "provides": {
+        "aliases": [],
+        "functions": []
+      },
+      "version": "1.0.0",
+      "hash": "",
+      "depends_on": []
+    },
+    {
+      "name": "Solarized Dark",
+      "description": "명도/채도를 과학적으로 맞춘 클래식 다크 팔레트",
+      "category_id": "zsh-theme",
+      "file_path": "zsh-theme/solarized-dark.zsh",
+      "preview_colors": [
+        "#002b36",
+        "#268bd2",
+        "#2aa198"
+      ],
+      "provides": {
+        "aliases": [],
+        "functions": []
+      },
+      "version": "1.0.0",
+      "hash": "",
+      "depends_on": []
+    },
+    {
+      "name": "One Dark",
+      "description": "Atom 에디터에서 유래한 균형 잡힌 다크 테마",
+      "category_id": "zsh-theme",
+      "file_path": "zsh-theme/onedark.zsh",
+      "preview_colors": [
+        "#282c34",
+        "#61afef",
+        "#98c379"
+      ],
+      "provides": {
+        "aliases": [],
+        "functions": []
+      },
+      "version": "1.0.0",
+      "hash": "",
+      "depends_on": []
+    },
+    {
+      "name": "Nightfox",
+      "description": "차갑고 선명한 블루/틸 톤의 다크 테마",
+      "category_id": "zsh-theme",
+      "file_path": "zsh-theme/nightfox.zsh",
+      "preview_colors": [
+        "#192330",
+        "#719cd6",
+        "#81b29a"
+      ],
+      "provides": {
+        "aliases": [],
+        "functions": []
+      },
+      "version": "1.0.0",
+      "hash": "",
+      "depends_on": []
+    },
+    {
+      "name": "Powerlevel10k (간단 버전)",
+      "description": "Powerlevel10k의 lean 스타일을 간단히 흉내낸 버전 — 실제 p10k는 별도 설치와 위저드 설정이 필요합니다",
+      "category_id": "zsh-theme",
+      "file_path": "zsh-theme/powerlevel10k-lean.zsh",
+      "preview_colors": [
+        "#268bd2",
+        "#859900",
+        "#dc322f"
+      ],
+      "provides": {
+        "aliases": [],
+        "functions": []
+      },
+      "version": "1.0.0",
+      "hash": "",
+      "depends_on": []
+    },
+    {
+      "name": "Pure (간단 버전)",
+      "description": "sindresorhus/pure의 극단적 미니멀함을 흉내낸 버전 — 굵은 마젠타 화살표가 시그니처입니다",
+      "category_id": "zsh-theme",
+      "file_path": "zsh-theme/pure.zsh",
+      "preview_colors": [
+        "#d33682",
+        "#586e75",
+        "#dc322f"
+      ],
+      "provides": {
+        "aliases": [],
+        "functions": []
+      },
+      "version": "1.0.0",
+      "hash": "",
+      "depends_on": []
+    },
+    {
+      "name": "Spaceship (간단 버전)",
+      "description": "모듈형 세그먼트가 특징인 Spaceship 프롬프트를 간단히 흉내낸 버전",
+      "category_id": "zsh-theme",
+      "file_path": "zsh-theme/spaceship.zsh",
+      "preview_colors": [
+        "#4e9a06",
+        "#06989a",
+        "#c4a000"
+      ],
+      "provides": {
+        "aliases": [],
+        "functions": []
+      },
+      "version": "1.0.0",
+      "hash": "",
+      "depends_on": []
+    },
+    {
+      "name": "Starship (zsh 연동)",
+      "description": "러스트로 만든 크로스쉘 프롬프트 Starship을 zsh에서 켜는 연동 스니펫",
+      "category_id": "zsh-theme",
+      "file_path": "zsh-theme/starship.zsh",
+      "preview_colors": [
+        "#06989a",
+        "#75507b",
+        "#4e9a06"
+      ],
+      "provides": {
+        "aliases": [],
+        "functions": []
+      },
+      "version": "1.0.0",
+      "hash": "",
+      "depends_on": []
+    },
+    {
+      "name": "Sorin (Prezto 기본)",
+      "description": "Prezto 프레임워크의 기본 테마를 간단히 흉내낸 버전",
+      "category_id": "zsh-theme",
+      "file_path": "zsh-theme/sorin.zsh",
+      "preview_colors": [
+        "#3465a4",
+        "#4e9a06",
+        "#cc0000"
+      ],
+      "provides": {
+        "aliases": [],
+        "functions": []
+      },
+      "version": "1.0.0",
+      "hash": "",
+      "depends_on": []
+    },
+    {
       "name": "Tokyo Night",
       "description": "A clean, dark theme inspired by Tokyo at night",
       "category_id": "nvim-colorscheme",
