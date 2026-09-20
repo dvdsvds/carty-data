@@ -1,7 +1,7 @@
 ---
-name: Zsh
-description: 기본 zsh 설정 (히스토리, 자동완성 등 기초 설정)
-category: shell
+name: 기본 (테마 없음)
+description: 테마 없이 기본 zsh 설정만 적용 (히스토리, 자동완성 등 기초 설정)
+category: zsh-theme
 preview_colors: []
 provides:
     aliases: []

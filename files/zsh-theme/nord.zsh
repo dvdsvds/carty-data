@@ -6,5 +6,5 @@ preview_colors: ["#2e3440", "#3b4252", "#88c0d0"]
 provides:
     aliases: []
     functions: []
-depends_on: ["shell/zsh.zsh"]
+depends_on: []
 ---
