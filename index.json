@@ -11,10 +11,19 @@
       "comment_prefix": "#"
     },
     {
+      "id": "fish-theme",
+      "label": "Fish Theme",
+      "required": false,
+      "priority": 2,
+      "apply_method": "marker_section",
+      "target_file": "~/.config/fish/config.fish",
+      "comment_prefix": "#"
+    },
+    {
       "id": "nvim-colorscheme",
       "label": "Neovim Colorscheme",
       "required": false,
-      "priority": 2,
+      "priority": 3,
       "apply_method": "marker_section",
       "target_file": "~/.config/nvim/lua/plugins/carty-theme.lua",
       "comment_prefix": "--"
@@ -626,6 +635,162 @@
       "provides": {
         "aliases": [],
         "functions": []
+      },
+      "version": "1.0.0",
+      "hash": "",
+      "depends_on": []
+    },
+    {
+      "name": "기본 (테마 없음)",
+      "description": "테마 없이 기본 fish 설정만 적용 (색상 없는 심플한 프롬프트)",
+      "category_id": "fish-theme",
+      "file_path": "fish-theme/plain.fish",
+      "preview_colors": [],
+      "provides": {
+        "aliases": [],
+        "functions": [
+          "fish_prompt"
+        ]
+      },
+      "version": "1.0.0",
+      "hash": "",
+      "depends_on": []
+    },
+    {
+      "name": "Robby Russell (fish 포트)",
+      "description": "oh-my-zsh 기본 테마를 fish로 옮긴 버전 — 초록 화살표 프롬프트",
+      "category_id": "fish-theme",
+      "file_path": "fish-theme/robbyrussell.fish",
+      "preview_colors": [
+        "#4e9a06",
+        "#06989a",
+        "#cc0000"
+      ],
+      "provides": {
+        "aliases": [],
+        "functions": [
+          "fish_prompt"
+        ]
+      },
+      "version": "1.0.0",
+      "hash": "",
+      "depends_on": []
+    },
+    {
+      "name": "Agnoster (fish 포트)",
+      "description": "Powerline 스타일 구간형 테마의 fish 포트 (Powerline 폰트 필요)",
+      "category_id": "fish-theme",
+      "file_path": "fish-theme/agnoster.fish",
+      "preview_colors": [
+        "#3465a4",
+        "#2e3436",
+        "#4e9a06"
+      ],
+      "provides": {
+        "aliases": [],
+        "functions": [
+          "fish_prompt"
+        ]
+      },
+      "version": "1.0.0",
+      "hash": "",
+      "depends_on": []
+    },
+    {
+      "name": "Tide (간단 버전)",
+      "description": "가장 인기 많은 fish 프롬프트 Tide를 간단히 흉내낸 버전 — 실제 Tide는 설치 후 설정 마법사가 필요합니다",
+      "category_id": "fish-theme",
+      "file_path": "fish-theme/tide.fish",
+      "preview_colors": [
+        "#268bd2",
+        "#859900",
+        "#dc322f"
+      ],
+      "provides": {
+        "aliases": [],
+        "functions": [
+          "fish_prompt"
+        ]
+      },
+      "version": "1.0.0",
+      "hash": "",
+      "depends_on": []
+    },
+    {
+      "name": "Bob The Fish (간단 버전)",
+      "description": "Powerline 스타일의 git 인식 fish 테마를 간단히 흉내낸 버전",
+      "category_id": "fish-theme",
+      "file_path": "fish-theme/bobthefish.fish",
+      "preview_colors": [
+        "#3465a4",
+        "#4e9a06",
+        "#c4a000"
+      ],
+      "provides": {
+        "aliases": [],
+        "functions": [
+          "fish_prompt"
+        ]
+      },
+      "version": "1.0.0",
+      "hash": "",
+      "depends_on": []
+    },
+    {
+      "name": "Pure (fish 버전, 간단 버전)",
+      "description": "극단적으로 미니멀한 Pure 프롬프트의 fish 포트를 간단히 흉내낸 버전",
+      "category_id": "fish-theme",
+      "file_path": "fish-theme/pure-fish.fish",
+      "preview_colors": [
+        "#d33682",
+        "#586e75",
+        "#dc322f"
+      ],
+      "provides": {
+        "aliases": [],
+        "functions": [
+          "fish_prompt"
+        ]
+      },
+      "version": "1.0.0",
+      "hash": "",
+      "depends_on": []
+    },
+    {
+      "name": "Hydro (간단 버전)",
+      "description": "비동기 git 상태를 보여주는 초경량 fish 프롬프트를 간단히 흉내낸 버전",
+      "category_id": "fish-theme",
+      "file_path": "fish-theme/hydro.fish",
+      "preview_colors": [
+        "#06989a",
+        "#4e9a06",
+        "#75507b"
+      ],
+      "provides": {
+        "aliases": [],
+        "functions": [
+          "fish_prompt"
+        ]
+      },
+      "version": "1.0.0",
+      "hash": "",
+      "depends_on": []
+    },
+    {
+      "name": "Spacefish (간단 버전)",
+      "description": "우주를 테마로 한 모듈형 fish 프롬프트를 간단히 흉내낸 버전 (현재 아카이브됨, Starship의 전신)",
+      "category_id": "fish-theme",
+      "file_path": "fish-theme/spacefish.fish",
+      "preview_colors": [
+        "#4e9a06",
+        "#06989a",
+        "#c4a000"
+      ],
+      "provides": {
+        "aliases": [],
+        "functions": [
+          "fish_prompt"
+        ]
       },
       "version": "1.0.0",
       "hash": "",
