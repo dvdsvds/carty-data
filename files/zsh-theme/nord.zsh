@@ -1,9 +1,10 @@
 ---
 name: Nord
 description: A cold, arctic-inspired zsh theme
-category: themes/zsh
+category: zsh-theme
 preview_colors: ["#2e3440", "#3b4252", "#88c0d0"]
 provides:
     aliases: []
-    function: []
+    functions: []
+depends_on: ["shell/zsh.zsh"]
 ---

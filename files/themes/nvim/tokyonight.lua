@@ -5,7 +5,7 @@ category: themes/nvim
 preview_colors: ["#1a1b26", "#7aa2f7", "#bb9af7"]
 provides:
     aliases: []
-    function: []
+    functions: []
 ---
 {
     "folke/tokyonight.nvim",
