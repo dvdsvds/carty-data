@@ -216,7 +216,7 @@
     },
     {
       "name": "git 브랜치",
-      "description": "현재 git 브랜치 표시 (git 저장소 안에서만 보임) — 색은 조립할 때 직접 고릅니다",
+      "description": "현재 git 브랜치 표시 (git 저장소 안에서만 보임) — 색은 담을 때 직접 고릅니다",
       "category_id": "zsh-custom",
       "file_path": "zsh-custom/git-branch.zsh",
       "preview_colors": [],
@@ -225,12 +225,12 @@
         "functions": []
       },
       "version": "1.0.0",
-      "hash": "2b8b675c0e97",
+      "hash": "13a08186b956",
       "depends_on": []
     },
     {
       "name": "사용자@호스트",
-      "description": "user@host 표시 — 색은 조립할 때 직접 고릅니다",
+      "description": "user@host 표시 — 색은 담을 때 직접 고릅니다",
       "category_id": "zsh-custom",
       "file_path": "zsh-custom/user-host.zsh",
       "preview_colors": [],
@@ -239,12 +239,12 @@
         "functions": []
       },
       "version": "1.0.0",
-      "hash": "8fb405d0691f",
+      "hash": "8923e6731d5d",
       "depends_on": []
     },
     {
       "name": "프롬프트 문자 (❯)",
-      "description": "명령 실행 성공/실패에 따라 색이 바뀌는 화살표 — 성공 색은 조립할 때 직접 고르고, 실패는 항상 빨강입니다",
+      "description": "명령 실행 성공/실패에 따라 색이 바뀌는 화살표 — 성공 색은 담을 때 직접 고르고, 실패는 항상 빨강입니다",
       "category_id": "zsh-custom",
       "file_path": "zsh-custom/prompt-char.zsh",
       "preview_colors": [],
@@ -253,12 +253,12 @@
         "functions": []
       },
       "version": "1.0.0",
-      "hash": "f598d45207db",
+      "hash": "19bf3e2660b9",
       "depends_on": []
     },
     {
       "name": "현재 경로",
-      "description": "현재 디렉터리 경로 표시 — 색은 조립할 때 직접 고릅니다",
+      "description": "현재 디렉터리 경로 표시 — 색은 담을 때 직접 고릅니다",
       "category_id": "zsh-custom",
       "file_path": "zsh-custom/path.zsh",
       "preview_colors": [],
@@ -267,7 +267,7 @@
         "functions": []
       },
       "version": "1.0.0",
-      "hash": "e1a867120a9e",
+      "hash": "33c0eb846da7",
       "depends_on": []
     },
     {
