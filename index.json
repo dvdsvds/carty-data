@@ -27,6 +27,16 @@
       "apply_method": "marker_section",
       "target_file": "~/.config/nvim/lua/plugins/carty-theme.lua",
       "comment_prefix": "--"
+    },
+    {
+      "id": "zsh-custom",
+      "label": "Zsh 커스텀 프롬프트 (부품 조립)",
+      "required": false,
+      "priority": 4,
+      "apply_method": "compose",
+      "target_file_env": "ZDOTDIR",
+      "target_file": "~/.zshrc",
+      "comment_prefix": "#"
     }
   ],
   "items": [
@@ -202,6 +212,62 @@
       },
       "version": "1.0.0",
       "hash": "241c9b5d6a47",
+      "depends_on": []
+    },
+    {
+      "name": "git 브랜치",
+      "description": "현재 git 브랜치 표시 (git 저장소 안에서만 보임) — 색은 조립할 때 직접 고릅니다",
+      "category_id": "zsh-custom",
+      "file_path": "zsh-custom/git-branch.zsh",
+      "preview_colors": [],
+      "provides": {
+        "aliases": [],
+        "functions": []
+      },
+      "version": "1.0.0",
+      "hash": "2b8b675c0e97",
+      "depends_on": []
+    },
+    {
+      "name": "사용자@호스트",
+      "description": "user@host 표시 — 색은 조립할 때 직접 고릅니다",
+      "category_id": "zsh-custom",
+      "file_path": "zsh-custom/user-host.zsh",
+      "preview_colors": [],
+      "provides": {
+        "aliases": [],
+        "functions": []
+      },
+      "version": "1.0.0",
+      "hash": "8fb405d0691f",
+      "depends_on": []
+    },
+    {
+      "name": "프롬프트 문자 (❯)",
+      "description": "명령 실행 성공/실패에 따라 색이 바뀌는 화살표 — 성공 색은 조립할 때 직접 고르고, 실패는 항상 빨강입니다",
+      "category_id": "zsh-custom",
+      "file_path": "zsh-custom/prompt-char.zsh",
+      "preview_colors": [],
+      "provides": {
+        "aliases": [],
+        "functions": []
+      },
+      "version": "1.0.0",
+      "hash": "f598d45207db",
+      "depends_on": []
+    },
+    {
+      "name": "현재 경로",
+      "description": "현재 디렉터리 경로 표시 — 색은 조립할 때 직접 고릅니다",
+      "category_id": "zsh-custom",
+      "file_path": "zsh-custom/path.zsh",
+      "preview_colors": [],
+      "provides": {
+        "aliases": [],
+        "functions": []
+      },
+      "version": "1.0.0",
+      "hash": "e1a867120a9e",
       "depends_on": []
     },
     {

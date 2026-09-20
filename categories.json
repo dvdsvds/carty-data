@@ -26,5 +26,15 @@
     "apply_method": "marker_section",
     "target_file": "~/.config/nvim/lua/plugins/carty-theme.lua",
     "comment_prefix": "--"
+  },
+  {
+    "id": "zsh-custom",
+    "label": "Zsh 커스텀 프롬프트 (부품 조립)",
+    "required": false,
+    "priority": 4,
+    "apply_method": "compose",
+    "target_file_env": "ZDOTDIR",
+    "target_file": "~/.zshrc",
+    "comment_prefix": "#"
   }
 ]
