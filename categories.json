@@ -29,7 +29,7 @@
   },
   {
     "id": "zsh-custom",
-    "label": "Zsh 커스텀 프롬프트 (부품 조립)",
+    "label": "Zsh Custom",
     "required": false,
     "priority": 4,
     "apply_method": "compose",
