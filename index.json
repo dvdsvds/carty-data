@@ -27,7 +27,10 @@
       "category_id": "zsh-theme",
       "file_path": "zsh-theme/plain.zsh",
       "preview_colors": [],
-      "provides": { "aliases": [], "functions": [] },
+      "provides": {
+        "aliases": [],
+        "functions": []
+      },
       "version": "1.0.0",
       "hash": "",
       "depends_on": []
@@ -37,8 +40,323 @@
       "description": "A cold, arctic-inspired zsh theme",
       "category_id": "zsh-theme",
       "file_path": "zsh-theme/nord.zsh",
-      "preview_colors": ["#2e3440", "#3b4252", "#88c0d0"],
-      "provides": { "aliases": [], "functions": [] },
+      "preview_colors": [
+        "#2e3440",
+        "#3b4252",
+        "#88c0d0"
+      ],
+      "provides": {
+        "aliases": [],
+        "functions": []
+      },
+      "version": "1.0.0",
+      "hash": "",
+      "depends_on": []
+    },
+    {
+      "name": "Robby Russell",
+      "description": "oh-my-zsh 기본 테마 — 초록 화살표와 심플한 git 상태 표시",
+      "category_id": "zsh-theme",
+      "file_path": "zsh-theme/robbyrussell.zsh",
+      "preview_colors": [
+        "#4e9a06",
+        "#06989a",
+        "#cc0000"
+      ],
+      "provides": {
+        "aliases": [],
+        "functions": []
+      },
+      "version": "1.0.0",
+      "hash": "",
+      "depends_on": []
+    },
+    {
+      "name": "Agnoster",
+      "description": "Powerline 스타일의 구간형(segmented) 테마 — 배경색 블록으로 디렉터리/git 상태 표시 (Powerline 폰트 필요)",
+      "category_id": "zsh-theme",
+      "file_path": "zsh-theme/agnoster.zsh",
+      "preview_colors": [
+        "#3465a4",
+        "#2e3436",
+        "#4e9a06"
+      ],
+      "provides": {
+        "aliases": [],
+        "functions": [
+          "build_prompt",
+          "prompt_segment",
+          "prompt_dir",
+          "prompt_git",
+          "prompt_end",
+          "prompt_status",
+          "prompt_context",
+          "prompt_virtualenv",
+          "prompt_aws",
+          "prompt_bzr",
+          "prompt_hg",
+          "prompt_terraform",
+          "prompt_git_relative",
+          "git_toplevel"
+        ]
+      },
+      "version": "1.0.0",
+      "hash": "",
+      "depends_on": []
+    },
+    {
+      "name": "AF Magic",
+      "description": "간결한 2줄 프롬프트 — 대시 구분선과 파란/주황 포인트 컬러",
+      "category_id": "zsh-theme",
+      "file_path": "zsh-theme/af-magic.zsh",
+      "preview_colors": [
+        "#0087d7",
+        "#ffaf00",
+        "#3a3a3a"
+      ],
+      "provides": {
+        "aliases": [],
+        "functions": [
+          "afmagic_dashes"
+        ]
+      },
+      "version": "1.0.0",
+      "hash": "",
+      "depends_on": []
+    },
+    {
+      "name": "Avit",
+      "description": "git 상태와 마지막 커밋 시각까지 보여주는 컬러풀한 테마",
+      "category_id": "zsh-theme",
+      "file_path": "zsh-theme/avit.zsh",
+      "preview_colors": [
+        "#4e9a06",
+        "#c4a000",
+        "#3465a4"
+      ],
+      "provides": {
+        "aliases": [],
+        "functions": [
+          "_git_time_since_commit",
+          "_user_host"
+        ]
+      },
+      "version": "1.0.0",
+      "hash": "",
+      "depends_on": []
+    },
+    {
+      "name": "Bira",
+      "description": "user@host를 두 줄로 나눠 보여주는 파랑/초록 프롬프트",
+      "category_id": "zsh-theme",
+      "file_path": "zsh-theme/bira.zsh",
+      "preview_colors": [
+        "#3465a4",
+        "#4e9a06",
+        "#c4a000"
+      ],
+      "provides": {
+        "aliases": [],
+        "functions": []
+      },
+      "version": "1.0.0",
+      "hash": "",
+      "depends_on": []
+    },
+    {
+      "name": "DST",
+      "description": "아주 짧고 미니멀한 프롬프트 — 색상 있는 화살표 하나",
+      "category_id": "zsh-theme",
+      "file_path": "zsh-theme/dst.zsh",
+      "preview_colors": [
+        "#3465a4",
+        "#75507b",
+        "#c4a000"
+      ],
+      "provides": {
+        "aliases": [],
+        "functions": [
+          "prompt_char"
+        ]
+      },
+      "version": "1.0.0",
+      "hash": "",
+      "depends_on": []
+    },
+    {
+      "name": "GNZH",
+      "description": "상단에 색이 채워진 박스형 구분선이 있는 테마",
+      "category_id": "zsh-theme",
+      "file_path": "zsh-theme/gnzh.zsh",
+      "preview_colors": [
+        "#3465a4",
+        "#06989a",
+        "#4e9a06"
+      ],
+      "provides": {
+        "aliases": [],
+        "functions": []
+      },
+      "version": "1.0.0",
+      "hash": "",
+      "depends_on": []
+    },
+    {
+      "name": "Kenneth Reitz",
+      "description": "미니멀한 화살표 프롬프트 — 빨강/파랑 포인트",
+      "category_id": "zsh-theme",
+      "file_path": "zsh-theme/kennethreitz.zsh",
+      "preview_colors": [
+        "#cc0000",
+        "#3465a4",
+        "#c4a000"
+      ],
+      "provides": {
+        "aliases": [],
+        "functions": []
+      },
+      "version": "1.0.0",
+      "hash": "",
+      "depends_on": []
+    },
+    {
+      "name": "Kolo",
+      "description": "rbenv/rvm 정보를 함께 보여주는 초록/보라 프롬프트",
+      "category_id": "zsh-theme",
+      "file_path": "zsh-theme/kolo.zsh",
+      "preview_colors": [
+        "#4e9a06",
+        "#75507b",
+        "#c4a000"
+      ],
+      "provides": {
+        "aliases": [],
+        "functions": [
+          "theme_precmd"
+        ]
+      },
+      "version": "1.0.0",
+      "hash": "",
+      "depends_on": []
+    },
+    {
+      "name": "Mortal Scumbag",
+      "description": "SSH 여부와 git 브랜치를 두 줄로 표시하는 굵은 컬러 테마",
+      "category_id": "zsh-theme",
+      "file_path": "zsh-theme/mortalscumbag.zsh",
+      "preview_colors": [
+        "#75507b",
+        "#c4a000",
+        "#4e9a06"
+      ],
+      "provides": {
+        "aliases": [],
+        "functions": [
+          "_toolbox_prompt_info",
+          "my_current_branch",
+          "my_git_prompt",
+          "ssh_connection"
+        ]
+      },
+      "version": "1.0.0",
+      "hash": "",
+      "depends_on": []
+    },
+    {
+      "name": "Pygmalion",
+      "description": "user@host + git 브랜치만 보여주는 아주 작은 프롬프트",
+      "category_id": "zsh-theme",
+      "file_path": "zsh-theme/pygmalion.zsh",
+      "preview_colors": [
+        "#06989a",
+        "#75507b",
+        "#4e9a06"
+      ],
+      "provides": {
+        "aliases": [],
+        "functions": []
+      },
+      "version": "1.0.0",
+      "hash": "",
+      "depends_on": []
+    },
+    {
+      "name": "Sunrise",
+      "description": "일출을 연상시키는 따뜻한 노랑/보라 톤의 프롬프트",
+      "category_id": "zsh-theme",
+      "file_path": "zsh-theme/sunrise.zsh",
+      "preview_colors": [
+        "#c4a000",
+        "#75507b",
+        "#4e9a06"
+      ],
+      "provides": {
+        "aliases": [],
+        "functions": [
+          "custom_git_prompt",
+          "custom_git_prompt_status"
+        ]
+      },
+      "version": "1.0.0",
+      "hash": "",
+      "depends_on": []
+    },
+    {
+      "name": "Sunaku",
+      "description": "초록/파랑 톤의 깔끔한 미니멀 프롬프트",
+      "category_id": "zsh-theme",
+      "file_path": "zsh-theme/sunaku.zsh",
+      "preview_colors": [
+        "#4e9a06",
+        "#3465a4",
+        "#75507b"
+      ],
+      "provides": {
+        "aliases": [],
+        "functions": []
+      },
+      "version": "1.0.0",
+      "hash": "",
+      "depends_on": []
+    },
+    {
+      "name": "We Disagree",
+      "description": "git/rvm 상태를 자세히 보여주는 파랑/보라 톤 프롬프트",
+      "category_id": "zsh-theme",
+      "file_path": "zsh-theme/wedisagree.zsh",
+      "preview_colors": [
+        "#3465a4",
+        "#75507b",
+        "#4e9a06"
+      ],
+      "provides": {
+        "aliases": [],
+        "functions": [
+          "git_time_since_commit",
+          "rvm_gemset"
+        ]
+      },
+      "version": "1.0.0",
+      "hash": "",
+      "depends_on": []
+    },
+    {
+      "name": "YS",
+      "description": "시간, 경로, git 상태를 깔끔하게 정리한 2줄 프롬프트",
+      "category_id": "zsh-theme",
+      "file_path": "zsh-theme/ys.zsh",
+      "preview_colors": [
+        "#3465a4",
+        "#06989a",
+        "#2e3436"
+      ],
+      "provides": {
+        "aliases": [],
+        "functions": [
+          "virtenv_prompt",
+          "ys_hg_prompt_info"
+        ]
+      },
       "version": "1.0.0",
       "hash": "",
       "depends_on": []
@@ -48,8 +366,15 @@
       "description": "A clean, dark theme inspired by Tokyo at night",
       "category_id": "nvim-colorscheme",
       "file_path": "themes/nvim/tokyonight.lua",
-      "preview_colors": ["#1a1b26", "#7aa2f7", "#bb9af7"],
-      "provides": { "aliases": [], "functions": [] },
+      "preview_colors": [
+        "#1a1b26",
+        "#7aa2f7",
+        "#bb9af7"
+      ],
+      "provides": {
+        "aliases": [],
+        "functions": []
+      },
       "version": "1.0.0",
       "hash": "",
       "depends_on": []
